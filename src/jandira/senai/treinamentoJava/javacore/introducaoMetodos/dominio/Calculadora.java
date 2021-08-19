@@ -20,4 +20,13 @@ public class Calculadora {
         }
         return num1 / num2;
     }
+
+    public void alteraDoisNumeros(int num1, int num2){
+        num1 = 100;
+        num2 = 100;
+        System.out.println("Dentro do alteraDoisNumeros");
+        System.out.println("Numero1 " + num1);
+        System.out.println("Numero2 " + num2);
+    }
+
 }
